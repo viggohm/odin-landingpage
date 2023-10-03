@@ -11,7 +11,6 @@ ul {
     display:flex;
     list-style: none;
     gap: 16px;
-    
     font-weight: 100;
 }
 
@@ -33,7 +32,7 @@ h1 {
 
 .headcontainer {
     background-color: #1F2937;
-    padding: 1em 13em
+    padding: 1em 13em;
 }
 
 .header {
@@ -69,4 +68,37 @@ h1 {
     width: 100%;
     background-color: #747b89;
     color: #F9FAF8;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    margin: 32px;
+    margin-bottom: 40px;
+}
+
+.infoline {
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+    gap: 32px;
+}
+
+.square {
+    border-color: #3882F6;
+    border-style: solid;
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    margin: auto;
+
+}
+
+.text {
+    font-size: 18px;
+    color: #1F2937;
+    max-width: 160px;
+    font-weight: 100;
 }

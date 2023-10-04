@@ -76,7 +76,6 @@ h1 {
     color: #1F2937;
     text-align: center;
     margin: 32px;
-    margin-bottom: 40px;
 }
 
 .infoline {
@@ -84,6 +83,7 @@ h1 {
     justify-content: center;
     margin: 32px;
     gap: 32px;
+    padding-bottom: 64px;
 }
 
 .square {
@@ -97,8 +97,62 @@ h1 {
 }
 
 .text {
+    display: flex;
+    flex-direction: row;
     font-size: 18px;
     color: #1F2937;
     max-width: 160px;
     font-weight: 100;
+    margin-top: 8px;
+}
+
+.quotecontainer {
+    background-color: #E5E7EB;
+    padding: 4em 13em;
+    margin: 0px;
+    width: 800px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: left;
+    color: #1F2937;
+}
+
+.author {
+    color: #1F2937;
+    font-size: 18px;
+    text-align: right;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 13em;
+}
+
+.actioncontainer {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 7em;
+    width: 940px;
+}
+
+.actioncontent {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 1em;
+    width: 1736px;
 }
